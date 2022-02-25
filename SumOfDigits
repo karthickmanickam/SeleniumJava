@@ -1,0 +1,16 @@
+package week1.day2;
+
+public class SumOfDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 123, sum=0, reminder;
+		
+		while(num>0) {
+			reminder = num%10;
+			sum=sum+ reminder;
+			num=num/10; }
+ System.out.println(sum);
+	}
+
+}
