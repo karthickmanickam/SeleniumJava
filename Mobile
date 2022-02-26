@@ -1,0 +1,19 @@
+package week1.day2;
+
+public class Mobile {
+
+	public void makecall() {
+		System.out.println("Calling Karthick");
+	}
+	
+	public void sendMsg() {
+		System.out.println("Message sent to Karthick - Become Java Selenium Expert");
+	}
+
+	public static void main(String[] args) {
+		Mobile obj = new Mobile();
+		obj.makecall();
+		
+	}
+	
+}
