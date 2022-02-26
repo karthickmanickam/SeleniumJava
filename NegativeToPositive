@@ -1,0 +1,15 @@
+package week1.day2;
+
+public class NegativeToPositive {
+
+	public static void main(String[] args) {
+
+
+		int x = -14;
+		if(x<0) {
+			x=x*-1;
+			System.out.println(x);
+		}
+	}
+
+}
