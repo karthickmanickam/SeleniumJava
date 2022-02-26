@@ -1,0 +1,15 @@
+package week1.day2;
+
+public class MyMobile {
+
+public static void main(String[] args) {
+	
+	Mobile obj2 = new Mobile();
+	obj2.makecall();
+	obj2.sendMsg();
+	
+}	
+		
+	
+	
+}
