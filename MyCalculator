@@ -1,0 +1,21 @@
+package week1.day2;
+
+public class MyCalculator {
+
+	public static void main(String[] args) {
+		Calculator calculator = new Calculator();
+		int sum = calculator.add(235, 5, 25);
+		System.out.println("Sum is " + sum);
+		
+		int minus = calculator.sub(150, 5);
+		System.out.println("Subtraction of the numbers " + minus);
+		
+		double product = calculator.mul(4, 334);
+		System.out.println("Product of the numbers " + product);
+		
+		float div = calculator.div(10, 22);
+		System.out.println("Division of the numbers " + div);
+		
+			}
+
+}
